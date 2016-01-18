@@ -1,2 +1,2 @@
-# win32-boilerplate
-The shortest Win32 app
+# Win32 Boilerplate
+A minimalist starting point for Win32 apps.
