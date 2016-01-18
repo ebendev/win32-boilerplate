@@ -1,5 +1,4 @@
 #include <Windows.h>
-#include <stdio.h>
 
 LRESULT CALLBACK
 MessageCallback(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
@@ -49,5 +48,5 @@ WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdS
 		}
 	}
 
-	return 0;
+	return msg.wParam;
 }
