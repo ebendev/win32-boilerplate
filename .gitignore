@@ -1,6 +1,6 @@
 .vs/
 Debug/
-*.sdf
-*.opendb
 *.filters
+*.opendb
+*.sdf
 *.user
